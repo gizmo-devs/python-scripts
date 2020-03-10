@@ -1,0 +1,8 @@
+systems:
+  - system:
+    name:
+    location:
+    backup_file:
+    backup_location:
+    backup_file_prefix: 
+    add_timestamp: true
