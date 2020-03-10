@@ -36,3 +36,7 @@ for system in utils.cfg['systems']:
         copyfile(source_file_path, target_file)
     except IOError:
         print("IOError, Cannot write to folder: " + backup_file_path)
+
+    print("File created {}/{}".format(system['backup_location'],target_filename))
+
+    print("Finished processing: " + system['name'])
